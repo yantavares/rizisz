@@ -5,7 +5,6 @@ import Presentes from "../Presentes/Presentes";
 import { useState } from "react";
 import Filmes from "../Filmes/Filmes";
 import Dates from "../Dates/Dates";
-import waves from "../../images/layered-waves-haikei.svg";
 
 function App() {
   const [isSet, setIsSet] = useState(1);
@@ -20,10 +19,6 @@ function App() {
       {isSet === 1 && <Presentes />}
       {isSet === 2 && <Filmes />}
       {isSet === 3 && <Dates />}
-
-      <footer>
-        <img className="footer-img" src={waves} alt="waves" />
-      </footer>
     </div>
   );
 }
