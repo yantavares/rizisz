@@ -1,0 +1,29 @@
+.projects {
+  /* transition: all 1000ms ease-in-out; */
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+
+.custom-loader {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #090913 95%, #0000) 50% 1px/12px
+      12px no-repeat,
+    radial-gradient(farthest-side, #0000 calc(100% - 14px), #e4e4ed 0);
+  animation: s9 2s infinite linear;
+}
+@keyframes s9 {
+  to {
+    transform: rotate(1turn);
+  }
+}

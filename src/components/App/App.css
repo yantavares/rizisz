@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+
+h1,
+h2,
+.hs,
+.btn {
+  font-family: "Paytone One", sans-serif;
+}
+p {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+.hs {
+  background-image: linear-gradient(90deg, #375dc3, #709df7, #80d7ff);
+  background-clip: text;
+  --webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+  display: flex;
+  font-weight: 400;
+  text-align: center;
+  max-width: 650px;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.footer-img {
+  width: 100%;
+  position: fixed;
+  /* z-index: -1; */
+  bottom: 0;
+}

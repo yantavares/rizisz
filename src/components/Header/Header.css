@@ -1,0 +1,35 @@
+header {
+  background-color: black;
+  position: relative;
+  width: 100%;
+}
+
+.header-msg {
+  background-color: black;
+  display: flex;
+  transition: all 420ms ease-in-out;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-justify: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.welcome-border {
+  background-image: linear-gradient(90deg, #375dc3, #709df7, #80d7ff);
+  height: 3px;
+}
+
+.welcome-msg {
+  font-size: 3.5rem;
+  transition: all 420ms ease-in-out;
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.header-msg:hover {
+  transform: scale(90%);
+}
