@@ -7,5 +7,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import yan from "../../images/yan.png";
 
-function Dates() {}
+function Dates() {
+  <div className="container"></div>;
+}
 export default Dates;

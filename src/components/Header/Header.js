@@ -8,7 +8,6 @@ function Header() {
       <div className="header-msg">
         <h1 className="welcome-msg hs">Rizisz</h1>
       </div>
-      <div className="welcome-border"></div>
     </header>
   );
 }

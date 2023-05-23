@@ -1,35 +1,33 @@
 header {
-  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   position: relative;
-  width: 100%;
 }
 
 .header-msg {
-  background-color: black;
+  width: 30%;
+  margin: 0 2rem;
+  background-color: #70769f;
   display: flex;
   transition: all 420ms ease-in-out;
   justify-content: center;
   align-content: center;
-  text-align: center;
-  text-justify: center;
-  width: 100%;
-  padding: 30px 0;
-}
-
-.welcome-border {
-  background-image: linear-gradient(90deg, #375dc3, #709df7, #80d7ff);
-  height: 3px;
+  padding: 10px 0;
+  border: 2px #e0b1cb solid;
+  border-top: none;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  margin-bottom: 1rem;
 }
 
 .welcome-msg {
   font-size: 3.5rem;
+
   transition: all 420ms ease-in-out;
   cursor: pointer;
   width: auto;
   margin: 0;
+  margin-bottom: 1rem;
   padding: 0;
-}
-
-.header-msg:hover {
-  transform: scale(90%);
 }

@@ -1,4 +1,4 @@
 function Filmes() {
-  return <div>Filmes</div>;
+  return <div className="container">Filmes</div>;
 }
 export default Filmes;

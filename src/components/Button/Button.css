@@ -1,14 +1,21 @@
 .btn {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 11%;
+  gap: 5px;
   padding: 10px 20px;
   border-radius: 7px;
-  border: 1px solid rgb(61, 106, 255);
+  border: 1px solid #4a4e69;
   font-size: 14px;
   /* text-transform: uppercase; */
   font-weight: 600;
   letter-spacing: 1px;
-  background: transparent;
-  color: #fff;
+  background: #a992a6;
+  color: whitesmoke;
   overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
   -webkit-transition: all 0.2s ease-in;
@@ -19,7 +26,7 @@
 
 .btn:hover,
 .btn-active:focus {
-  background: rgb(61, 106, 255);
+  background-color: #4a4e69;
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -34,7 +41,7 @@
 
 .btn::before {
   content: "";
-  display: block;
+  /* display: block; */
   width: 0px;
   height: 86%;
   position: absolute;
@@ -71,7 +78,7 @@
 
 .btn-active {
   box-shadow: 0 0 0 0 transparent;
-  background: rgb(61, 106, 255);
+  background-color: #70769f;
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;

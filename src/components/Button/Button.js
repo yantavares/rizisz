@@ -1,4 +1,11 @@
 import "./Button.css";
+import {
+  faGifts,
+  faClapperboard,
+  faCalendar,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Button({ isSet, setIsSet, msg, state }) {
   return (
     <>
@@ -10,6 +17,19 @@ function Button({ isSet, setIsSet, msg, state }) {
         }}
         className={isSet === state ? "btn-active btn" : "btn"}
       >
+        {msg === "PRESENTES" && (
+          <FontAwesomeIcon style={{ color: "aliceblue" }} icon={faGifts} />
+        )}
+        {msg === "FILMES" && (
+          <FontAwesomeIcon
+            style={{ color: "aliceblue" }}
+            icon={faClapperboard}
+          />
+        )}
+        {msg === "DATES" && (
+          <FontAwesomeIcon style={{ color: "aliceblue" }} icon={faCalendar} />
+        )}
+
         {msg}
       </button>
     </>

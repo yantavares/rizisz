@@ -14,10 +14,7 @@ a {
   color: black;
 }
 .hs {
-  background-image: linear-gradient(90deg, #375dc3, #709df7, #80d7ff);
-  background-clip: text;
-  --webkit-background-clip: text;
-  color: transparent;
+  color: #fae1dd;
   margin: 0;
   display: flex;
   font-weight: 400;
@@ -38,4 +35,8 @@ a {
   position: fixed;
   /* z-index: -1; */
   bottom: 0;
+}
+
+.app {
+  height: 100vh;
 }
