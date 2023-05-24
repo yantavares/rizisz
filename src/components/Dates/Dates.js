@@ -1,13 +1,14 @@
 import "./Dates.css";
-import {
-  faInstagram,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faHelmetSafety } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import yan from "../../images/yan.png";
 
 function Dates() {
-  <div className="container"></div>;
+  return (
+    <div className="container-dates">
+      <div>{<FontAwesomeIcon icon={faHelmetSafety} />}</div>
+      <h1>Em construção</h1>
+      <div>{<FontAwesomeIcon icon={faHelmetSafety} />}</div>
+    </div>
+  );
 }
 export default Dates;
