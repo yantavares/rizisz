@@ -6,7 +6,7 @@ header {
 }
 
 .header-msg {
-  width: 30%;
+  width: 40%;
   margin: 0 2rem;
   background-color: #70769f;
   display: flex;
@@ -19,11 +19,11 @@ header {
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 4rem;
   margin-bottom: 1rem;
+  min-width: 300px;
 }
 
 .welcome-msg {
-  font-size: 3.5rem;
-
+  font-size: 4em;
   transition: all 420ms ease-in-out;
   cursor: pointer;
   width: auto;

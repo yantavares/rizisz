@@ -28,6 +28,7 @@ a {
   gap: 0.5rem;
   justify-content: center;
   margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .footer-img {

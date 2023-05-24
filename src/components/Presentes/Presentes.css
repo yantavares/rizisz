@@ -1,7 +1,10 @@
 .presentes-container {
   justify-content: center;
   align-content: center;
+  justify-items: center;
+  align-items: center;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
   gap: 2rem;
-  margin: 5rem;
 }
