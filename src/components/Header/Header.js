@@ -1,5 +1,3 @@
-import { faReact } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
 
 function Header() {
