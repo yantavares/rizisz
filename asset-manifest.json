@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/resume-react/static/css/main.32f816ed.css",
-    "main.js": "/resume-react/static/js/main.72b7745a.js",
-    "index.html": "/resume-react/index.html",
-    "static/media/circle-scatter-haikei.svg": "/resume-react/static/media/circle-scatter-haikei.b91037e7dd1c31d47817.svg",
-    "main.32f816ed.css.map": "/resume-react/static/css/main.32f816ed.css.map",
-    "main.72b7745a.js.map": "/resume-react/static/js/main.72b7745a.js.map"
+    "main.css": "/rizisz/static/css/main.f3646c07.css",
+    "main.js": "/rizisz/static/js/main.72b7745a.js",
+    "index.html": "/rizisz/index.html",
+    "static/media/circle-scatter-haikei.svg": "/rizisz/static/media/circle-scatter-haikei.b91037e7dd1c31d47817.svg",
+    "main.f3646c07.css.map": "/rizisz/static/css/main.f3646c07.css.map",
+    "main.72b7745a.js.map": "/rizisz/static/js/main.72b7745a.js.map"
   },
   "entrypoints": [
-    "static/css/main.32f816ed.css",
+    "static/css/main.f3646c07.css",
     "static/js/main.72b7745a.js"
   ]
 }
