@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rizisz/static/css/main.616ec0d2.css",
-    "main.js": "/rizisz/static/js/main.92421051.js",
+    "main.css": "/rizisz/static/css/main.ff7bb685.css",
+    "main.js": "/rizisz/static/js/main.3c4397a2.js",
     "static/media/totoro.jpeg": "/rizisz/static/media/totoro.8256fa10bb3fcb1efc81.jpeg",
     "index.html": "/rizisz/index.html",
     "static/media/circle-scatter-haikei.svg": "/rizisz/static/media/circle-scatter-haikei.b91037e7dd1c31d47817.svg",
-    "main.616ec0d2.css.map": "/rizisz/static/css/main.616ec0d2.css.map",
-    "main.92421051.js.map": "/rizisz/static/js/main.92421051.js.map"
+    "main.ff7bb685.css.map": "/rizisz/static/css/main.ff7bb685.css.map",
+    "main.3c4397a2.js.map": "/rizisz/static/js/main.3c4397a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.616ec0d2.css",
-    "static/js/main.92421051.js"
+    "static/css/main.ff7bb685.css",
+    "static/js/main.3c4397a2.js"
   ]
 }
