@@ -63,3 +63,13 @@ p {
   font-size: 20px;
   font-weight: bolder;
 }
+
+.align {
+  display: flex;
+  flex-direction: column;
+}
+
+.align p,
+.align img {
+  margin-left: 20px;
+}
