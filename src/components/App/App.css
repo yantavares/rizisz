@@ -10,6 +10,23 @@ p {
   text-align: center;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+label {
+  color: #fae1dd;
+}
+
+button {
+  cursor: pointer;
+}
+
 a {
   color: black;
 }
