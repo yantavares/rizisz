@@ -6,11 +6,7 @@ function Presente({ date, shouldOpen, picture, content }) {
   return (
     <>
       <div className={shouldOpen ? "book align" : "book-close align"}>
-        <img
-          src={picture}
-          alt="totoro"
-          style={{ height: "100px", width: "100px", borderRadius: "20px" }}
-        />
+        <img src={picture} alt="gift" style={{ height: "120px" }} />
         <p>{content}</p>
         <div className="cover">
           <p>{date}</p>
